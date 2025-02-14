@@ -1,0 +1,78 @@
+body {
+    background-image: url("https://www.gisma.com/uploads/sites/5/2023/09/MEng-CS-GettyImages-1488457074.jpg?w=1920&h=1080&crop=1");
+    background-size: 160%;
+    color: #fbf5f3;
+    font-family: Tahoma, sans-serif;
+}
+#title, #description {
+    text-align: center;
+    width: auto;
+}
+#title {
+    font-size: 2.5rem;
+}
+#description {
+    font-size: 1rem;
+    font-style: italic;
+}
+.container {
+    width: 45%;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #000022;
+    padding: 50px 50px 80px 50px;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+label, legend {
+    color: #fbf5f3;
+    font-size: 1.2rem;
+}
+input[type="text"], input[type="email"], input[type="number"], select {
+    width: 100%;
+    min-height: 2.25rem;
+    padding-left: 15px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+}
+select {
+    width: 102%;
+    margin-bottom: 0;
+}
+legend {
+    margin: 40px 0 10px 0 ;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+textarea {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+}
+#submit {
+    width: 103%;
+    background-color: #e28413;
+    border: none;
+    border-radius: 20px;
+    min-height: 45px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+#submit:hover {
+    background-color: #fbf5f3;
+}
+#submit:active {
+    background-color: rgb(238, 234, 234);
+    opacity: 0.5;
+}
+
