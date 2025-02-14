@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+    <main>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div class="container">
+    <form id="survey-form">
+      <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required></label>
+      <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required></label>
+      <label for="number" id="number-label">Age (optional): <input id="number" type="number" min="0" max="130" placeholder="Age" required></label>
+      <label>What is your department?
+      <select id="dropdown">
+        <option>Choose Department</option>
+        <option>Computer Science (CS)</option>
+        <option>Information Technology</option>
+      </select>
+      </label>
+      <legend>What year are you right now?</legend>
+      <label for="1st"><input id="1st" type="radio" value="1st" name="year" checked>1st Year</label>
+      <label for="2nd"><input id="2nd" type="radio" value="2nd" name="year">2nd Year</label>
+      <label for="3rd"><input id="3rd" type="radio" value="3rd" name="year">3rd Year</label>
+      <label for="4th"><input id="4th" type="radio" value="4th" name="year">4th Year</label>
+      <legend>What is your interests in the field of computers?</legend>
+      <label for="web-development"><input type="checkbox" id="web-development" value="web-development" name="interest">Web development</label>
+      <label for="data-science"><input type="checkbox" id="data-science" value="data-science" name="interest">Data Science</label>
+      <label for="cyber-security"> <input type="checkbox" id="cyber-security" name="interest" value="cyber-security">Cyber Security</label>
+      <label>What is your suggestions?<textarea rows="8" placeholder="Enter your suggestions here"></textarea></label>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    </div>
+    </main>
+  </body>
+</html>
+
+
